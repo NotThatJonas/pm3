@@ -10,7 +10,9 @@ class App extends Component {
     return (
       <Router basename="/react-auth-ui/">
         <div className="App">
-          <div className="App__Aside"></div>
+          <div className="App__Aside" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr13aep6TJQgE4HZMgSCzgcJTCRBzz6Sp4SZdZV84yfMW1XRGG&usqp=CAU" alt="pm3 logo" />
+          </div>
           <div className="App__Form">
             <div className="PageSwitcher">
                 <NavLink to="/sign-in" activeClassName="PageSwitcher__Item--Active" className="PageSwitcher__Item">Sign In</NavLink>
